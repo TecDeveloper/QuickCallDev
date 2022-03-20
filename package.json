@@ -1,14 +1,15 @@
 {
-  "name": "quickcall",
-  "version": "0.0.1",
+  "name": "quickcalldev",
+  "version": "0.1.0-alpha.1",
   "description": "Easy and fast shortcuts for your code",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "homepage": "https://github.com/TecDeveloper/quickcalldev#readme",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TecDeveloper/quickcall.git"
+    "url": "git+https://github.com/TecDeveloper/quickcalldev.git"
   },
   "keywords": [
     "shortcuts",
@@ -17,7 +18,19 @@
   "author": "TecDeveloper",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/TecDeveloper/quickcall/issues"
+    "url": "https://github.com/TecDeveloper/quickcalldev/issues"
   },
-  "homepage": "https://github.com/TecDeveloper/quickcall#readme"
+  "dependencies": {
+    "chalk": "~4.1.2",
+    "child_process": "1.0.2",
+    "lib": "^4.3.3",
+    "semver": "^7.3.5"
+  },
+  "devDependencies": {
+    "express": "^4.17.3"
+  },
+  "optionalDependencies": {
+    "simple-get": "~4.0.1",
+    "express": "~4.17.3"
+  }
 }
